@@ -8,11 +8,3 @@ layout: default
 </div>
 
 <p>Olá! Eu sou o Berg, professor de física. Nesta página você encontrará materiais de ensino e aprendizagem de física. Fique à vontade!</p>
-
-<p><strong>Recent works:</strong></p> 
-<ul>
-{% assign listofpubs = site.publications | sort: 'date' | reverse %}
-{% for paper in listofpubs limit:3 %}
-    <li>{{ paper.citation }} Read more about it <a href="{{ paper.url }}">here</a>!</li>
-{% endfor %}
-</ul>
