@@ -271,3 +271,71 @@ section #title .credits {
  color:#696969;
  margin-top:-10px
 }
+
+/* --- Regras para o Dropdown de Terceiro Nível --- */
+
+/* 1. Torna os itens do Nível 2 pais de posicionamento */
+/* Isso é crucial para que o Nível 3 se posicione ao lado */
+.dropdown-content a,
+.dropdown-content .dropdown-sub-sub {
+  position: relative;
+  /* Garante que o item ocupe a largura total e possa conter o Nível 3 */
+  display: block; 
+}
+
+/* 2. Estilos para o botão/label do Nível 2 (Ex: "MSc Thesis") */
+.dropdown-sub-sub .dropbtn-sub-sub {
+  font-family:'MontserratRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #202020; /* Cor de fundo padrão do menu */
+  border: none;
+  color: #f26a49; /* Cor do texto padrão */
+  padding: 8px 15px;
+  text-align: left; /* Alinha o texto do botão com os links 'a' */
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%; /* Ocupa toda a largura do item pai */
+  display: block;
+}
+
+/* 3. Estilos do item do Nível 2 ao passar o mouse */
+.dropdown-sub-sub:hover .dropbtn-sub-sub {
+  background-color: #f19e58; /* Cor de destaque (hover) */
+  color: #202020; /* Cor do texto ao destacar */
+}
+
+/* 4. Estilos e Posicionamento do Submenu Nível 3 */
+.dropdown-content-sub-sub {
+  /* Oculta por padrão */
+  display: none; 
+  /* Posicionamento absoluto em relação ao pai (.dropdown-sub-sub) */
+  position: absolute; 
+  /* Coloca o menu Nível 3 100% para a direita do Nível 2 */
+  left: 100%; 
+  /* Alinha o topo do menu Nível 3 com o topo do Nível 2 */
+  top: 0; 
+  
+  font-family:'MontserratRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #202020; /* Mesma cor de fundo */
+  min-width: 100%; /* Largura mínima, pode ajustar se necessário */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2; /* Garante que fique sobre o Nível 2 */
+}
+
+/* 5. Estilos dos links (a) dentro do Nível 3 */
+.dropdown-content-sub-sub a {
+  color: #f26a49; /* Cor do link */
+  padding: 8px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+/* 6. Ação: Mostra o Submenu Nível 3 ao passar o mouse sobre o item Nível 2 */
+.dropdown-sub-sub:hover .dropdown-content-sub-sub {
+  display: block;
+}
+
+/* 7. Ação: Hover nos links do Nível 3 */
+.dropdown-content-sub-sub a:hover {
+  background-color: #f19e58; /* Cor de destaque (hover) */
+  color: #202020; /* Cor do texto ao destacar */
+}
