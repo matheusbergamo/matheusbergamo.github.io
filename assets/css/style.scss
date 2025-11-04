@@ -1,53 +1,54 @@
 ---
 ---
+
 @import "{{ site.theme }}";
 @font-face {
-  font-family: 'MontserratLight';
-  src: url("../fonts/Montserrat-Light.otf");
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'MontserratLight';
+  src: url("../fonts/Montserrat-Light.otf");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-  font-family: 'MontserratLightItalic';
-  src: url("../fonts/Montserrat-LightItalic.otf");
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'MontserratLightItalic';
+  src: url("../fonts/Montserrat-LightItalic.otf");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-  font-family: 'MontserratRegular';
-  src: url("../fonts/Montserrat-Regular.otf");
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'MontserratRegular';
+  src: url("../fonts/Montserrat-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-  font-family: 'MontserratItalic';
-  src: url("../fonts/Montserrat-Italic.otf");
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'MontserratItalic';
+  src: url("../fonts/Montserrat-Italic.otf");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-  font-family: 'MontserratSemiBold';
-  src: url("../fonts/Montserrat-SemiBold.otf");
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'MontserratSemiBold';
+  src: url("../fonts/Montserrat-SemiBold.otf");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-  font-family: 'MontserratSemiBoldItalic';
-  src: url("../fonts/Montserrat-SemiBoldItalic.otf");
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'MontserratSemiBoldItalic';
+  src: url("../fonts/Montserrat-SemiBoldItalic.otf");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-  font-family: 'MontserratBold';
-  src: url("../fonts/Montserrat-Bold.otf");
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'MontserratBold';
+  src: url("../fonts/Montserrat-Bold.otf");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-  font-family: 'MontserratBoldItalic';
-  src: url("../fonts/Montserrat-BoldItalic.otf");
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'MontserratBoldItalic';
+  src: url("../fonts/Montserrat-BoldItalic.otf");
+  font-weight: normal;
+  font-style: normal;
 }
 
 a:link {
@@ -67,11 +68,11 @@ a:hover {
 }
 
 .page__content {
-  text-align: justify;
+  text-align: justify;
 }
 
 img {
-	max-width: 100%; 
+	max-width: 100%; 
 	height: auto;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -150,7 +151,7 @@ a.button:hover {
 	position: absolute;
 	background-color: #202020;
 	min-width: 100%;
-	margin-left: auto; 
+	margin-left: auto; 
 	margin-right: auto;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
@@ -173,10 +174,10 @@ a.button:hover {
 
 #Menu {
 	text-align: center;
-	position: -webkit-sticky; 
-	position: sticky; 
+	position: -webkit-sticky; 
+	position: sticky; 
 	top: 0;
-	padding:2px 0 2px 0; 
+	padding:2px 0 2px 0; 
 	background-color: #202020;
 	z-index: 99;
 }
@@ -194,14 +195,14 @@ a.button:hover {
 }
 
 body {
- padding:0px 0 20px 0px;
- margin:0px;
- font:14px/1.5 "MontserratRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
- color:#f0e7d5;
- font-weight:normal;
- background-color: #202020;
- background-attachment:fixed !important;
- background:linear_gradient(#2a2a29, #1c1c1c)
+ padding:0px 0 20px 0px;
+ margin:0px;
+ font:14px/1.5 "MontserratRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ color:#f0e7d5;
+ font-weight:normal;
+ background-color: #202020;
+ background-attachment:fixed !important;
+ background:linear_gradient(#2a2a29, #1c1c1c)
 }
 
 h1,
@@ -210,132 +211,131 @@ h3,
 h4,
 h5,
 h6 {
- color:#e8e8e8;
- margin:0 0 10px;
- font-family:'MontserratRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
- font-weight:normal
+ color:#e8e8e8;
+ margin:0 0 10px;
+ font-family:'MontserratRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+ font-weight:normal
 }
 
 strong {
- font-family:'MontserratBold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
- font-weight:normal
+ font-family:'MontserratBold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+ font-weight:normal
 }
 
 th {
- text-align:left;
- padding:5px 10px;
- border-bottom:1px solid #434343;
- color:#b6b6b6;
- font-family:'MontserratSemiBold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
- font-weight:normal
+ text-align:left;
+ padding:5px 10px;
+ border-bottom:1px solid #434343;
+ color:#b6b6b6;
+ font-family:'MontserratSemiBold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+ font-weight:normal
 }
 
 dt {
- color:#F0E7D5;
- font-family:'MontserratSemiBold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
- font-weight:normal
+ color:#F0E7D5;
+ font-family:'MontserratSemiBold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+ font-weight:normal
 }
 
 #header nav li {
- font-family:'MontserratLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
- font-weight:normal;
- list-style:none;
- display:inline;
- color:white;
- line-height:50px;
- text-shadow:0px 1px 0px rgba(0,0,0,0.2);
- font-size:14px
+ font-family:'MontserratLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+ font-weight:normal;
+ list-style:none;
+ display:inline;
+ color:white;
+ line-height:50px;
+ text-shadow:0px 1px 0px rgba(0,0,0,0.2);
+ font-size:14px
 }
 
 section #title h1 {
- font-family:'MontserratLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
- font-weight:normal;
- font-size:40px;
- text-align:center;
- line-height:36px
+ font-family:'MontserratLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+ font-weight:normal;
+ font-size:40px;
+ text-align:center;
+ line-height:36px
 }
 
 section #title p {
- color:#d7cfbe;
- font-family:'MontserratLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
- font-weight:normal;
- font-size:18px;
- text-align:center
+ color:#d7cfbe;
+ font-family:'MontserratLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+ font-weight:normal;
+ font-size:18px;
+ text-align:center
 }
 
 section #title .credits {
- font-size:11px;
- font-family:'MontserratRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
- font-weight:normal;
- color:#696969;
- margin-top:-10px
+ font-size:11px;
+ font-family:'MontserratRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+ font-weight:normal;
+ color:#696969;
+ margin-top:-10px
 }
 
-/* --- Regras para o Dropdown de Terceiro Nível (AJUSTADO PARA UNIFORMIDADE) --- */
+/* --- Regras para o Dropdown de Terceiro Nível --- */
 
-/* 1. Torna os itens do Nível 2 pais de posicionamento uniformes */
+/* 1. Torna os itens do Nível 2 pais de posicionamento */
+/* Isso é crucial para que o Nível 3 se posicione ao lado */
 .dropdown-content a,
 .dropdown-content .dropdown-sub-sub {
-  position: relative;
-  display: block;
-  /* Garante que o item pai não adicione espaçamento extra */
-  padding: 0; 
-  margin: 0; 
+  position: relative;
+  /* Garante que o item ocupe a largura total e possa conter o Nível 3 */
+  display: block; 
 }
 
 /* 2. Estilos para o botão/label do Nível 2 (Ex: "MSc Thesis") */
 .dropdown-sub-sub .dropbtn-sub-sub {
-  font-family:'MontserratRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #202020; /* Mantém a cor de fundo */
-  border: none; /* ESSENCIAL: Remove a borda padrão do botão */
-  color: #f26a49; 
-  padding: 8px 15px; /* ESSENCIAL: Unifica o padding com os links do Nível 2 */
-  text-align: left;
-  font-size: 16px;
-  cursor: pointer;
-  width: 100%;
-  display: block;
-  /* ESSENCIAL: Remove qualquer margin extra do botão */
-  margin: 0; 
-  /* Ajuda a garantir que padding/border não empurre o elemento para fora */
-  box-sizing: border-box; 
+  font-family:'MontserratRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #202020; /* Cor de fundo padrão do menu */
+  border: none;
+  color: #f26a49; /* Cor do texto padrão */
+  padding: 8px 15px;
+  text-align: left; /* Alinha o texto do botão com os links 'a' */
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%; /* Ocupa toda a largura do item pai */
+  display: block;
 }
 
 /* 3. Estilos do item do Nível 2 ao passar o mouse */
 .dropdown-sub-sub:hover .dropbtn-sub-sub {
-  background-color: #f19e58; 
-  color: #202020; 
+  background-color: #f19e58; /* Cor de destaque (hover) */
+  color: #202020; /* Cor do texto ao destacar */
 }
 
 /* 4. Estilos e Posicionamento do Submenu Nível 3 */
 .dropdown-content-sub-sub {
-  display: none; 
-  position: absolute; 
-  left: 100%; 
-  top: 0; 
-  
-  font-family:'MontserratRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #202020; 
-  min-width: 100%; 
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 2; 
+  /* Oculta por padrão */
+  display: none; 
+  /* Posicionamento absoluto em relação ao pai (.dropdown-sub-sub) */
+  position: absolute; 
+  /* Coloca o menu Nível 3 100% para a direita do Nível 2 */
+  left: 100%; 
+  /* Alinha o topo do menu Nível 3 com o topo do Nível 2 */
+  top: 0; 
+  
+  font-family:'MontserratRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #202020; /* Mesma cor de fundo */
+  min-width: 100%; /* Largura mínima, pode ajustar se necessário */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2; /* Garante que fique sobre o Nível 2 */
 }
 
 /* 5. Estilos dos links (a) dentro do Nível 3 */
 .dropdown-content-sub-sub a {
-  color: #f26a49; 
-  padding: 8px 15px;
-  text-decoration: none;
-  display: block;
+  color: #f26a49; /* Cor do link */
+  padding: 8px 15px;
+  text-decoration: none;
+  display: block;
 }
 
 /* 6. Ação: Mostra o Submenu Nível 3 ao passar o mouse sobre o item Nível 2 */
 .dropdown-sub-sub:hover .dropdown-content-sub-sub {
-  display: block;
+  display: block;
 }
 
 /* 7. Ação: Hover nos links do Nível 3 */
 .dropdown-content-sub-sub a:hover {
-  background-color: #f19e58; 
-  color: #202020; 
+  background-color: #f19e58; /* Cor de destaque (hover) */
+  color: #202020; /* Cor do texto ao destacar */
 }
